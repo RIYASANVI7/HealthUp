@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:cursive;
+	background:linear-gradient(to right,lightblue,pink) no-repeat;
+	 
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	
+}
+.margin{
+	margin:2px 3px;
+}
+.toggle{
+	text-align: center;
+	background: #eaac9d;
+}
+.toggle a{
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+	line-height: 70px;
+	font-weight: 600;
+	transition: 0.5s;
+	position: relative;
+	padding-right: 30px;
+	letter-spacing: 3px;
+	color: #142850;
+}
+.toggle a:hover{
+	color: pink;
+	transition: 0.3s;
+}
+.section{
+
+	width: 1200px;
+	padding: 10px;
+	margin: 240px auto;
+	background: none;
+	display: flex;
+	justify-content: center;
+}
+.column{
+	width: 250px;
+    height: 300px;
+    background: none;
+    margin: 0px 8px;
+    transition: 1s;
+
+}
+.column:hover{
+   transform: scale(1.3);
+   background:none;
+}
+.section1{
+
+	width: 1400px;
+	padding: 10px;
+	margin: 240px auto;
+	 background:linear-gradient(to right,pink,white);
+	display: flex;
+	justify-content: center;
+}
+.section15{
+	width: 1200px;
+	padding: 10px;
+	margin: 240px auto;
+	background:url(teez.jpg) no-repeat;
+	display: flex;
+	justify-content: center;
+
+}
+.column1{
+	width: 450px;
+    height: 350px;
+  background:linear-gradient(to right,pink,white);
+    margin: 12px 22px;
+    transition: 1s;
+}
+.column19{
+	width: 1200px;
+    height: 350px;
+    background:linear-gradient(to right,pink,white);
+    margin: 12px 22px;
+    transition: 1s;
+}
+.column12{
+	width: 700px;
+    height: 300px;
+    background:linear-gradient(to right,pink,white);
+    margin: 12px 18px;
+    transition: 1s;
+}
+.column11{
+	width: 800px;
+    height: 350px;
+    background:linear-gradient(to right,pink,white);
+    margin: 14px 22px;
+    transition: 1s;
+
+}
+.column1:hover{
+       transform: scale(1.3);
+}
+.video{
+	margin-left: 200px;
+	align-self: 50px;
+	margin-bottom: 80px;
+	float: left;
+	align-content: center;
+	border: 3px solid;
+	padding: 12px;}
+	
+.footer{
+	
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display:flex;
+	margin: 22px 8px;
+       left: 640px;
+		border-radius: 30px;
+		outline: transparent;
+	
+	
+	position: relative;
+}
+.b1{
+	background:linear-gradient(to right,brown,yellow);
+	
+	width: 80px;
+	margin: 40px;
+	border-radius: 30px;padding: 10px;}
+
+.b2{
+	background:linear-gradient(to right,yellow,brown);
+	width: 80px;
+	
+	margin: 40px ;
+	border-radius: 30px;
+	padding: 10px;
+}
+#more {display: none;}
+#myBtn{
+	width: 65%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background:#def4f0;
+	
+		border-radius: 30px;
+	border-radius: 30px;
+	outline: none;
+}
+ 
+  
